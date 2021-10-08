@@ -33,7 +33,7 @@ function App() {
     }
 
     consultarApiLetra();
-  }, [busquedaletra, info])
+  }, [busquedaletra])
 
   return (
     <Fragment>
