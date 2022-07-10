@@ -20,7 +20,7 @@ function App() {
 
       const { artista, cancion } = busquedaletra;
       const url = `https://api.lyrics.ovh/v1/${artista}/${cancion}`;
-      const url2 = `https://www.theaudiodb.com/api/v1/json/1/search.php?s=${artista}`;    
+      const url2 = `https://www.theaudiodb.com/api/v1/json/2/search.php?s=${artista}`;    
 
       const [letra, informacion] = await Promise.all([
         axios(url),
